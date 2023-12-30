@@ -1,3 +1,8 @@
+import datetime
+
+print(datetime.MAXYEAR)
+
+
 # def my_fn(a, b):
 #     a = a + 1
 #     c = a + b
@@ -31,16 +36,16 @@
 # hello("hello there!")
 
 
-def sum_nums(a, b):
-    sum = a + b
-    return sum
+# def sum_nums(a, b):
+#     sum = a + b
+#     return sum
 
 
-res = sum_nums(20.4, 3)
-print("res", res)
+# res = sum_nums(20.4, 3)
+# print("res", res)
 
-print(sum_nums(2, 4))
+# print(sum_nums(2, 4))
 
-print(sum_nums(2, 4), 10)
+# print(sum_nums(2, 4), 10)
 
-print(print("hi"))  # None
+# print(print("hi"))  # None
