@@ -38,3 +38,9 @@ def sum_nums(a, b):
 
 res = sum_nums(20.4, 3)
 print("res", res)
+
+print(sum_nums(2, 4))
+
+print(sum_nums(2, 4), 10)
+
+print(print("hi"))  # None
