@@ -50,10 +50,22 @@
 # print(print("hi"))  # None
 
 
-my_number = 10
+# my_number = 10
 
 
-print(id(my_number))
+# print(id(my_number))
 
 
 # 03:01:30
+
+a = int(input())
+b = int(input())
+q = 0
+
+
+for a in range(a, b):
+    print(a)
+    q = q + 1
+
+
+print("count of numbers: ", q)
