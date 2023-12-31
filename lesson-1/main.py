@@ -49,4 +49,11 @@
 
 # print(print("hi"))  # None
 
-# 02:30:06
+
+my_number = 10
+
+
+print(id(my_number))
+
+
+# 03:01:30
