@@ -1,7 +1,6 @@
-import datetime
+# import datetime
 
-print(datetime.MAXYEAR)
-
+# print(datetime.MAXYEAR)
 
 # def my_fn(a, b):
 #     a = a + 1
@@ -49,3 +48,5 @@ print(datetime.MAXYEAR)
 # print(sum_nums(2, 4), 10)
 
 # print(print("hi"))  # None
+
+# 02:30:06
