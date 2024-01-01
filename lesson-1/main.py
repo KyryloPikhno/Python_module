@@ -55,17 +55,26 @@
 
 # print(id(my_number))
 
+# a = int(input())
+# b = int(input())
+# q = 0
+
+# for a in range(a, b):
+#     print(a)
+#     q = q + 1
+
+# print("count of numbers: ", q)
 
 # 03:01:30
 
-a = int(input())
-b = int(input())
-q = 0
+
+# my_name = "Kirill"
+
+# print(type(my_name))
+
+# info_msg = """This
+#     is a very
+# long string"""  # long string
 
 
-for a in range(a, b):
-    print(a)
-    q = q + 1
-
-
-print("count of numbers: ", q)
+# print(info_msg)
