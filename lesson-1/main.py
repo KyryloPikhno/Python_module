@@ -78,3 +78,22 @@
 
 
 # print(info_msg)
+
+my_name = "Kirill"
+
+# str function
+# print(len(my_name))
+
+# print(my_name[0])
+
+# print(my_name[3:6])
+
+my_comment = "This is my short comment"
+
+# print(len(my_comment))
+
+# new_comment = my_comment.replace("short", "long")
+
+# print(new_comment)
+
+print(my_comment.count("is"))
