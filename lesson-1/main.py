@@ -65,9 +65,6 @@
 
 # print("count of numbers: ", q)
 
-# 03:01:30
-
-
 # my_name = "Kirill"
 
 # print(type(my_name))
@@ -76,10 +73,9 @@
 #     is a very
 # long string"""  # long string
 
-
 # print(info_msg)
 
-my_name = "Kirill"
+# my_name = "Kirill"
 
 # str function
 # print(len(my_name))
@@ -88,7 +84,7 @@ my_name = "Kirill"
 
 # print(my_name[3:6])
 
-my_comment = "This is my short comment"
+# my_comment = "This is my short comment"
 
 # print(len(my_comment))
 
@@ -98,8 +94,10 @@ my_comment = "This is my short comment"
 
 # print(my_comment.count("is"))
 
-print(my_comment[-5])
+# print(my_comment[-5])
 
-print(my_comment[2:7])
+# print(my_comment[2:7])
 
-print(my_comment[:10])
+# print(my_comment[:10])
+
+# 03:31:30
