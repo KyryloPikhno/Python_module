@@ -96,4 +96,10 @@ my_comment = "This is my short comment"
 
 # print(new_comment)
 
-print(my_comment.count("is"))
+# print(my_comment.count("is"))
+
+print(my_comment[-5])
+
+print(my_comment[2:7])
+
+print(my_comment[:10])
