@@ -99,5 +99,3 @@
 # print(my_comment[2:7])
 
 # print(my_comment[:10])
-
-# 03:31:30
