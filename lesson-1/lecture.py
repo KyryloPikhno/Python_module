@@ -1,16 +1,16 @@
 # lksjdflksjfklj
 
-"""
-ljshflsjhdf
-jkfhgjshfjsk
-jkhsdfksjf
+# """
+# ljshflsjhdf
+# jkfhgjshfjsk
+# jkhsdfksjf
 
-"""
+# """
 
-"""
-sdfsdfsdfsd
-sdfsdfsdf
-"""
+# """
+# sdfsdfsdfsd
+# sdfsdfsdf
+# """
 
 # print('hello from python')
 
@@ -59,8 +59,8 @@ b = 6
 # print(2525**2525)
 
 
-a = 2
-b = 3
+# a = 2
+# b = 3
 #
 # print(a < b)
 # print(a <= b)
@@ -253,26 +253,26 @@ b = 3
 # print(s1)
 
 # print('*'*20)
-name = "Max"
-age = 18
-weight = 70.5
+# name = "Max"
+# age = 18
+# weight = 70.5
 
-string = "Hello, my name is Max, I`m 18 and my weight 70.5 kg"
-string = (
-    "Hello, my name is "
-    + name
-    + ", I`m "
-    + str(age)
-    + " and my weight "
-    + str(weight)
-    + " kg"
-)
-string = "Hello, my name is %s, I`m %d and my weight %f kg" % (name, age, weight)
-string = "Hello, my name is {}, I`m {} and my weight {} kg".format(name, age, weight)
-string = "Hello, my name is {name}, I`m {age} and my weight {weight} kg".format(
-    age=age, weight=weight, name=name
-)
-string = f"hello, my name is {name}, I`m {age} and my weight {weight} kg"
+# string = "Hello, my name is Max, I`m 18 and my weight 70.5 kg"
+# string = (
+#     "Hello, my name is "
+#     + name
+#     + ", I`m "
+#     + str(age)
+#     + " and my weight "
+#     + str(weight)
+#     + " kg"
+# )
+# string = "Hello, my name is %s, I`m %d and my weight %f kg" % (name, age, weight)
+# string = "Hello, my name is {}, I`m {} and my weight {} kg".format(name, age, weight)
+# string = "Hello, my name is {name}, I`m {age} and my weight {weight} kg".format(
+#     age=age, weight=weight, name=name
+# )
+# string = f"hello, my name is {name}, I`m {age} and my weight {weight} kg"
 
 # print(string)
 
@@ -364,7 +364,7 @@ i = 5
 # print(l)
 
 
-l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # res = [i**2 for i in l]
 # res = [i ** 2 for i in l if i % 2 == 0]
@@ -374,8 +374,43 @@ l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 #
 # print(33 in l)
 
-dict1 = {"name": "max", "age": 15}
+# dict1 = {"name": "max", "age": 15}
 
-for k, v in dict1.items():
-    print(f"{k=}")
-    print(f"{v=}")
+# for k, v in dict1.items():
+#     print(f"{k=}")
+#     print(f"{v=}")
+# python lecture.py
+
+# print("hello")
+
+# print(1, 2, 3) "def separator"
+
+# print(1, 2, 3, sep="   ", end="")
+
+# primitives
+
+# int = 3
+
+# float = 1.4
+
+# boolian = True
+
+# string = "text string type"
+
+# none = None
+
+# print(type(string))
+
+# num = "2" castomization
+
+# i = int(num)
+
+# print(i)
+
+# a = b = c = 10 multy
+
+# math operation
+
+a = 0
+
+a += 1
