@@ -586,16 +586,62 @@ weight = 75.7
 # string = "Hello, my name is {name}, i'm {age} years, my waight is {weight} kg".format(
 #     name=name, age=age, weight=weight
 # )
-string = f"Hello, my name is {name}, i'm {age} years, my waight is {weight} kg"
+# string = f"Hello, my name is {name}, i'm {age} years, my waight is {weight} kg"
 # print(string)
 
-string[2]
-string.index("m")
-string.index("ll")
-string.find("z")
-string.count("l")
-string.capitalize()
-string.upper()
-string.lower()
-string.islower()
-print(string.isupper())
+# string[2]
+# string.index("m")
+# string.index("ll")
+# string.find("z")
+# string.count("l")
+# string.capitalize()
+# string.upper()
+# string.lower()
+# string.islower()
+# print(string.isupper())
+
+
+# def func(a, b, c, *args, **kwargs):
+#     print(a, b, c)
+#     print(args)
+#     print(kwargs)
+
+# func(2, 3, 4, 5, 6, 7, name="Kris")
+
+
+# i = 5
+
+# while i >= 0:
+#     print(i)
+#     i -= 1
+# else:
+#     print("finish")
+
+# l = [1, 2, 3, 4]
+
+# for i in l:
+#     print(i)
+# else:
+#     print("finish")
+
+
+# for i in range(4, 15):
+#     print(i)
+
+
+# l = [1, 2, 3, 4]
+
+# for i, v in enumerate(l):
+#     print(f"{i=}")
+#     print(f"{v=}")
+# print(i, v)
+
+
+# l = [i for i in range(5)]
+# print(l)
+
+
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+res = [i**2 for i in l]
+print(res)
