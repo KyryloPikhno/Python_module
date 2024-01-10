@@ -333,7 +333,7 @@ b = 6
 # func(2, 3, 4, 5,6,7,8, name='max',age=15)
 
 
-i = 5
+# i = 5
 
 # while i>=0:
 #     print(i)
@@ -411,6 +411,191 @@ i = 5
 
 # math operation
 
-a = 0
+# a = 0
 
-a += 1
+# a += 1
+
+# /////
+
+# a = 12
+
+# b = 6
+
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a / b)  # float
+# print(a // b)  # cut everything after .
+# print(round(5 / 2))
+# print(10 % 3)  # answer 2
+# print(252**252)
+
+# print(a != b) # is not
+# print(a == b) # is
+
+# print(isinstance("string", str))
+
+# if a != b:
+#     print("yes")
+
+# if a != b and a or b:
+#     print("something")
+# elif a == 5:
+#     print("elif")
+# else:
+#     print("lol else")
+
+# f = False
+
+# if f == False:
+#     print("yes")
+
+# if not f:
+#     print("something")
+
+# res = input("Enter num: ")
+
+# print(res)
+
+# num = input("Enter num: ")
+
+# res = "yes" if num > "5" else "no"
+
+#           colection
+
+# list
+
+# l = [1, 2, 3, 4, 5, 6]
+
+# print(l[2])
+# print(l[-2])
+# print(l[35]) # error !
+# l[0] = 555
+# del l[1]
+# print(l)
+# print(len(l))
+
+#         list methods
+
+# l = [1, 2, 3, 4, 5, 6]
+# l = list(1, 2, 3, 4, 5, 6)  # another variant of init
+
+# l.extend([99, 88, 77])
+# l += [66, 55, 44]
+# l.append(222)
+# l.insert(0, 333)
+# res = l.pop()
+# l.index(2)
+# l.reverse()
+# l.sort()
+# l.sort(reverse=True)
+# l.count(3)
+# l2 = l.copy()  # shell copy
+# l.remove(3)  # first 3 what was finded
+# l.clear()  # []
+
+# l = [1, 2, 3, 4, 5, 6]
+
+# l2 = l[1:3]
+# l[:3]
+# l[:4:2]
+# l[::2] # every second
+# l[::-1] # new reverce list
+
+#       cortege or tuple (often on backend, low memory)
+
+# my_tuple = (1, 2, 3, 4, 5, 6, "str")
+
+# my_tuple[3]
+# my_tuple.count(2)
+# my_tuple.index(2)
+
+#        dictionary
+
+# dictionary = {"name": "max", "house": 25, 3: 3}
+# or thiw variant
+# dictionary = dict(name="max", asd=24)
+
+# print(dictionary["name"])
+# print(dictionary[3])
+# print(dictionary["ddd"])  # error
+# dictionary["street"] = "street"
+
+#         dictionary methods
+
+# dictionary.get("name")
+# dictionary.get("name1", 555)
+# dictionary.clear()
+# dictionary.copy()
+# dictionary.items()
+# dictionary.values()
+# dictionary.keys()
+# dictionary.pop("name")
+# dictionary.popitem()  # remove last element
+# dictionary.setdefault("not_existing_name", "Kirill")
+# dictionary.update({"city": "Mariupol"})
+# # or this
+# dictionary |= {"asd": "asd"}
+
+
+#         set
+
+# l = [1, 2, 2, 2, 3, 4, 5, 6]
+
+# s = set(l)
+
+# s = {}  # type dict :)
+
+# s = {1, 2, 3, 4, 5, 6}
+
+# s.add(55)
+
+# s1 = {1, 2, 3, 4, 5}
+# s2 = {1, 3, 2, 9, 5}
+
+# s1.issuperset(s2)  # the same as s2
+# s1.issubset(s2)
+# s1.isdisjoint(s2)
+# s1.union(s2)
+# s1.intersection(s2)
+# s1.difference(s2)
+# s1.symmetric_difference(s2)
+# s1.update(s2)
+# s1.remove(2)
+# s1.discard(222)
+# s1.pop() # remove random value
+
+
+#            str
+
+name = "Kirill"
+age = 26
+weight = 75.7
+
+# print("*" * 20)
+# string = (
+#     "Hello, my name is "
+#     + name
+#     + ", i'm "
+#     + str(age)
+#     + " years, my waight is "
+#     + str(weight)
+#     + " kg"
+# )
+# string = "Hello, my name is %s, i'm %d years, my waight is %f kg" % (name, age, weight)
+# string = "Hello, my name is {name}, i'm {age} years, my waight is {weight} kg".format(
+#     name=name, age=age, weight=weight
+# )
+string = f"Hello, my name is {name}, i'm {age} years, my waight is {weight} kg"
+# print(string)
+
+string[2]
+string.index("m")
+string.index("ll")
+string.find("z")
+string.count("l")
+string.capitalize()
+string.upper()
+string.lower()
+string.islower()
+print(string.isupper())
