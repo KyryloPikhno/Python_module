@@ -149,18 +149,18 @@
 # 3) вывести табличку множення за допомогою цикла while
 
 
-def multi_table():
-    size = 9
-    i = 1
-    while i <= size:
-        j = 1
-        while j <= size:
-            res = i * j
-            print("  " if res // 10 else "   ", end="")
-            print(res, end="")
-            j += 1
-        i += 1
-        print()
+# def multi_table():
+#     size = 9
+#     i = 1
+#     while i <= size:
+#         j = 1
+#         while j <= size:
+#             res = i * j
+#             print("  " if res // 10 else "   ", end="")
+#             print(res, end="")
+#             j += 1
+#         i += 1
+#         print()
 
 
-multi_table()
+# multi_table()
