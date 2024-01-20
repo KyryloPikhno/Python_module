@@ -88,3 +88,14 @@
 # print(str0 + str1 * 2)
 str = r"hello \tworld"
 print(str)
+
+l = [
+    1,
+    2,
+    3,
+    4,
+    5.2,
+    "dtf",
+    True,
+    True,
+]
