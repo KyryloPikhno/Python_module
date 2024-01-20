@@ -63,3 +63,28 @@
 #     print(i)
 
 # print(str[0:5:2])
+
+# str = "1234 !"
+# print(len(str))
+# print(str.index("3"))
+# print(str.rindex("3"))
+# print(str.find("3"))
+# print(str.rfind("3"))
+
+# str = "/gmail.com"
+# print(str.isspace())
+# print(str.isalpha())
+# print(str.endswith("com"))
+# print(str.startswith("g"))
+# print(str.lower())  # and the same with upper and capitalize
+# print(str.islower())
+# print(str.replace(".com", ".ua", 1))
+# print(str.split("."))
+# print(str.strip("/"))
+
+
+# str0 = "hello "
+# str1 = "world"
+# print(str0 + str1 * 2)
+str = r"hello \tworld"
+print(str)
