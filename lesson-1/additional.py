@@ -89,16 +89,21 @@
 # str = r"hello \tworld"
 # print(str)
 
-l = [
-    1,
-    2,
-    3,
-    4,
-    5.2,
-    "dtg",
-    True,
-]
+# l = [
+#     1,
+#     2,
+#     3,
+#     4,
+#     5.2,
+#     "dtg",
+#     True,
+# ]
 
-l1 = [6, 7]
+# l1 = [6, 7]
 
-print(l + l1)
+# print(l + l1)
+
+# t = [1, 2, 3, 4, 5]
+# l = (1, 2, 3, 4, 5)
+
+# print(t.__sizeof__(), l.__sizeof__())
