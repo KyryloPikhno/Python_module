@@ -86,8 +86,8 @@
 # str0 = "hello "
 # str1 = "world"
 # print(str0 + str1 * 2)
-str = r"hello \tworld"
-print(str)
+# str = r"hello \tworld"
+# print(str)
 
 l = [
     1,
@@ -95,7 +95,10 @@ l = [
     3,
     4,
     5.2,
-    "dtf",
-    True,
+    "dtg",
     True,
 ]
+
+l1 = [6, 7]
+
+print(l + l1)
