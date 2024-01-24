@@ -89,15 +89,7 @@
 # str = r"hello \tworld"
 # print(str)
 
-# l = [
-#     1,
-#     2,
-#     3,
-#     4,
-#     5.2,
-#     "dtg",
-#     True,
-# ]
+l = [1, 2, 5.2, "dtg", True]
 
 # l1 = [6, 7]
 
