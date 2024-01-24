@@ -266,4 +266,4 @@
 #     return name
 
 
-# print(test("lol"))
+# print(test("looool"))
