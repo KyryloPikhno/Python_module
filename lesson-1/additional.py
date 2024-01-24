@@ -89,7 +89,7 @@
 # str = r"hello \tworld"
 # print(str)
 
-l = [1, 2, 5.2, "dtg", True]
+# l = [1, 2, 5.2, "dtg", True]
 
 # l1 = [6, 7]
 
@@ -101,3 +101,4 @@ l = [1, 2, 5.2, "dtg", True]
 # print(t.__sizeof__(), l.__sizeof__())
 
 d = {"name": "Bob", "age": 25, 11: 123}
+print(d.popitem())
