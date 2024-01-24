@@ -166,3 +166,104 @@
 # l2 = [*l]
 # print(l is l2)
 # print(l == l2)
+
+
+# def decor(function):
+#     def inner():
+#         print("*" * 20)
+#         function()
+#         print("*" * 20)
+
+#     return inner
+
+
+# def greeting():
+#     print("Hello")
+
+
+# new_greeting = decor(greeting)
+
+# new_greeting()
+
+
+# @decor
+# def greeting():
+#     print("Hi")
+
+
+# greeting()
+
+# name = "Kirill"
+
+# print(globals())
+
+
+# def a():
+#     global name
+#     name = "Kris"
+#     print(locals())
+#     print("*" * 20)
+
+
+# a()
+
+# print(globals())
+
+
+# def test():
+#     name = "Kirill"
+
+#     def get_name():
+#         return name
+
+#     def set_name(new_name):
+#         nonlocal name
+#         name = new_name
+
+#     return [get_name, set_name]
+
+
+# get_name, set_name = test()
+
+# print(get_name())
+# set_name("Cucaracha")
+# print(get_name())
+
+# users = [
+#     {"name": "Kirill", "age": 3},
+#     {"name": "Kirill", "age": 10},
+#     {"name": "Kirill", "age": 14},
+#     {"name": "Kirill", "age": 2},
+#     {"name": "Kirill", "age": 22},
+# ]
+
+
+# def sort_by_age(item):
+#     return item["age"]
+# or
+# sort_by_age = lambda item: item["age"]
+
+# print(sorted(users, key=lambda item: item["age"], reverse=True))
+
+# import math
+
+# print(math.sqrt(25))
+
+# from math import sqrt as s
+
+# print(s(25))
+
+# from math import sqrt, tan, tanh
+
+# from typing import List  # If Python < 3.9
+
+
+# def test(name: List):
+#     return name.copy
+
+
+# def test(name) -> str:
+#     return name
+
+
+# print(test("lol"))
