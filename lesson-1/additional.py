@@ -100,5 +100,8 @@
 
 # print(t.__sizeof__(), l.__sizeof__())
 
-d = {"name": "Bob", "age": 25, 11: 123}
-print(d.popitem())
+# d = {"name": "Bob", "age": 25, 11: 123}
+# print(d.popitem())
+# print(d.setdefault("age"))
+# print(d.setdefault("lol"))
+# print(d)
