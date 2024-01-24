@@ -105,3 +105,15 @@
 # print(d.setdefault("age"))
 # print(d.setdefault("lol"))
 # print(d)
+
+
+set = {1, 1, 1, 1, 2, 3, 4, 4, 4, 4}  # random order
+
+for i in set:
+    print(i)
+
+set.add(10)
+set.remove(1)
+set.discard(1)  # without error if doesn't exist
+
+print(set)
