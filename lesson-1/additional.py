@@ -99,3 +99,5 @@ l = [1, 2, 5.2, "dtg", True]
 # l = (1, 2, 3, 4, 5)
 
 # print(t.__sizeof__(), l.__sizeof__())
+
+d = {"name": "Bob", "age": 25, 11: 123}
