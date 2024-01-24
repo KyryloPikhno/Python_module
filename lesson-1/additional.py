@@ -107,13 +107,21 @@
 # print(d)
 
 
-set = {1, 1, 1, 1, 2, 3, 4, 4, 4, 4}  # random order
+# set = {1, 1, 1, 1, 2, 3, 4, 4, 4, 4}  # random order
 
-for i in set:
-    print(i)
+# for i in set:
+#     print(i)
 
-set.add(10)
-set.remove(1)
-set.discard(1)  # without error if doesn't exist
+# set.add(10)
+# set.remove(1)
+# set.discard(1)  # without error if doesn't exist
 
-print(set)
+# print(set)
+
+# set1 = {1, 2, 3, 4, 5}
+# set2 = {9, 2, 10, 4, 5}
+
+# print(set1.symmetric_difference(set2))
+# print(set1.union(set2))
+# print(set1.issubset(set2))
+# print(set1.isdisjoint(set2))
