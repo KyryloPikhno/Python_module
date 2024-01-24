@@ -125,3 +125,44 @@
 # print(set1.union(set2))
 # print(set1.issubset(set2))
 # print(set1.isdisjoint(set2))
+
+###################################### FUNCTIONS ######################################
+
+
+# num1 = 6
+# num2 = 3.3
+
+
+# def sum():
+#     sum = num1 + num2
+#     print(sum)
+
+
+# def sum(n1=1, n2=2):
+#     return n1 + n2
+
+
+# x = sum(n2=10)
+# print(x)
+
+
+# def some(*args, **kwarks):
+#     return args, kwarks
+
+
+# print(some(1, 2, 3, 4, 5, age=2))
+
+# l = [1, 2, 3, 4]
+
+# a, b, c, _ = l
+# a, *_, b = l
+# *_, b = l
+
+
+# print(b)
+
+# l = [1, 2, 3, 4]
+
+# l2 = [*l]
+# print(l is l2)
+# print(l == l2)
