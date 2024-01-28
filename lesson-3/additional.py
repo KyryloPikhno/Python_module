@@ -107,3 +107,31 @@
 #     @name.fdel
 #     def name(self):
 #         del self.__name
+
+
+from abc import ABC, abstractmethod
+
+
+class Shape(ABC):
+    @abstractmethod
+    def perimeter(self):
+        pass
+
+    @abstractmethod
+    def area(self):
+        pass
+
+
+class Rectangle(Shape):
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def perimeter(self):
+        return self.b + self.a
+
+    def area(self):
+        return self.b * self.a
+
+
+# class Triangle(Shape):
