@@ -1,3 +1,39 @@
+class Array:
+    def __init__(self, *args):
+        self.__arr = [*args]
+
+    def __str__(self):
+        return str(self.__arr)
+
+    def __len__(self):
+        return len(self.__arr)
+
+    def __setitem__(self, key, value):
+        self.__arr[key] = value
+
+    def __getitem_(self, key):
+        return self.__arr[key]
+
+    def __delitem(self, key):
+        del self.__arr[key]
+
+    def push(self, item):
+        self.__arr.append(item)
+
+    def map(self, cb):
+        return Array(*[cb(item) for item in self.__arr])
+
+    def filter(self, cb):
+        return Array(*[item for item in self.__arr if cb(item)])
+
+
+arr = Array(2, 3, 4, 5, 6, 10)
+
+print(len(arr))
+arr[1] = 555
+arr.push("lol")
+print(arr)
+
 # class User:
 #     count = 1
 
@@ -161,22 +197,22 @@
 #     print(shape.perimeter())
 
 
-class User:
-    __count = 0
+# class User:
+#     __count = 0
 
-    @classmethod
-    def inc_count(cls):
-        cls.__count += 1
+#     @classmethod
+#     def inc_count(cls):
+#         cls.__count += 1
 
-    @classmethod
-    def print_count(cls):
-        print(cls.__count)
+#     @classmethod
+#     def print_count(cls):
+#         print(cls.__count)
 
-    @staticmethod
-    def hello():
-        print("hello world")
+#     @staticmethod
+#     def hello():
+#         print("hello world")
 
 
-User.print_count()
-User.inc_count()
-User.print_count()
+# User.print_count()
+# User.inc_count()
+# User.print_count()
