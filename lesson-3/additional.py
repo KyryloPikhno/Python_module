@@ -134,4 +134,28 @@ class Rectangle(Shape):
         return self.b * self.a
 
 
-# class Triangle(Shape):
+class Triangle(Shape):
+    def __init__(self, a, b, c):
+        self.a = a
+        self.b = b
+        self.c = c
+
+    def perimeter(self):
+        return self.a + self.b + self.c
+
+    def area(self):
+        return self.a * self.b * self.c
+
+
+shapes: list[Shape] = [
+    Triangle(1, 2, 3),
+    Rectangle(
+        2,
+        3,
+    ),
+    Triangle(4, 5, 9),
+]
+
+for shape in shapes:
+    print(shape.area())
+    print(shape.perimeter())
