@@ -1,38 +1,38 @@
-class Array:
-    def __init__(self, *args):
-        self.__arr = [*args]
+# class Array:
+#     def __init__(self, *args):
+#         self.__arr = [*args]
 
-    def __str__(self):
-        return str(self.__arr)
+#     def __str__(self):
+#         return str(self.__arr)
 
-    def __len__(self):
-        return len(self.__arr)
+#     def __len__(self):
+#         return len(self.__arr)
 
-    def __setitem__(self, key, value):
-        self.__arr[key] = value
+#     def __setitem__(self, key, value):
+#         self.__arr[key] = value
 
-    def __getitem_(self, key):
-        return self.__arr[key]
+#     def __getitem_(self, key):
+#         return self.__arr[key]
 
-    def __delitem(self, key):
-        del self.__arr[key]
+#     def __delitem(self, key):
+#         del self.__arr[key]
 
-    def push(self, item):
-        self.__arr.append(item)
+#     def push(self, item):
+#         self.__arr.append(item)
 
-    def map(self, cb):
-        return Array(*[cb(item) for item in self.__arr])
+#     def map(self, cb):
+#         return Array(*[cb(item) for item in self.__arr])
 
-    def filter(self, cb):
-        return Array(*[item for item in self.__arr if cb(item)])
+#     def filter(self, cb):
+#         return Array(*[item for item in self.__arr if cb(item)])
 
 
-arr = Array(2, 3, 4, 5, 6, 10)
+# arr = Array(2, 3, 4, 5, 6, 10)
 
-print(len(arr))
-arr[1] = 555
-arr.push("lol")
-print(arr)
+# print(len(arr))
+# arr[1] = 555
+# arr.push("lol")
+# print(arr)
 
 # class User:
 #     count = 1
@@ -216,3 +216,28 @@ print(arr)
 # User.print_count()
 # User.inc_count()
 # User.print_count()
+
+
+# class Rectangle:
+#     def __init__(self, a, b):
+#         self.a = a
+#         self.b = b
+#         self.area = self.a * self.b
+
+#     def __add__(self, other):
+#         return self.area - other.area
+
+#     def __eq__(self, other):
+#         return self.area == other.area
+
+#     def __ne__(self, other):
+#         return self.area != other.area
+
+#     def __lt__(self, other):
+#         return self.area < other.area
+
+#     def __gt__(self, other):
+#         return self.area > other.area
+
+#     def __len__(self):
+#         return (self.a + self.b) * 2
