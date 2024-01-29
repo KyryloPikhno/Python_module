@@ -109,53 +109,74 @@
 #         del self.__name
 
 
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
 
 
-class Shape(ABC):
-    @abstractmethod
-    def perimeter(self):
-        pass
+# class Shape(ABC):
+#     @abstractmethod
+#     def perimeter(self):
+#         pass
 
-    @abstractmethod
-    def area(self):
-        pass
-
-
-class Rectangle(Shape):
-    def __init__(self, a, b):
-        self.a = a
-        self.b = b
-
-    def perimeter(self):
-        return self.b + self.a
-
-    def area(self):
-        return self.b * self.a
+#     @abstractmethod
+#     def area(self):
+#         pass
 
 
-class Triangle(Shape):
-    def __init__(self, a, b, c):
-        self.a = a
-        self.b = b
-        self.c = c
+# class Rectangle(Shape):
+#     def __init__(self, a, b):
+#         self.a = a
+#         self.b = b
 
-    def perimeter(self):
-        return self.a + self.b + self.c
+#     def perimeter(self):
+#         return self.b + self.a
 
-    def area(self):
-        return self.a * self.b * self.c
+#     def area(self):
+#         return self.b * self.a
 
 
-shapes: list[Shape] = [
-    Triangle(1, 2, 3),
-    Rectangle(
-        2,
-        3,
-    ),
-    Triangle(4, 5, 9),
-]
+# class Triangle(Shape):
+#     def __init__(self, a, b, c):
+#         self.a = a
+#         self.b = b
+#         self.c = c
 
-for shape in shapes:
-    print(shape.area())
-    print(shape.perimeter())
+#     def perimeter(self):
+#         return self.a + self.b + self.c
+
+#     def area(self):
+#         return self.a * self.b * self.c
+
+
+# shapes: list[Shape] = [
+#     Triangle(1, 2, 3),
+#     Rectangle(
+#         2,
+#         3,
+#     ),
+#     Triangle(4, 5, 9),
+# ]
+
+# for shape in shapes:
+#     print(shape.area())
+#     print(shape.perimeter())
+
+
+class User:
+    __count = 0
+
+    @classmethod
+    def inc_count(cls):
+        cls.__count += 1
+
+    @classmethod
+    def print_count(cls):
+        print(cls.__count)
+
+    @staticmethod
+    def hello():
+        print("hello world")
+
+
+User.print_count()
+User.inc_count()
+User.print_count()
