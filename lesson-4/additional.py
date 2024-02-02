@@ -65,3 +65,5 @@ def gen_file_nmae():
 g = gen_file_nmae()
 
 print(next(g))
+
+# 30:00
