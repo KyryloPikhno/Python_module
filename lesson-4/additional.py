@@ -54,4 +54,14 @@
 
 # print("It works")
 
-# 25:00
+from uuid import uuid1
+
+
+def gen_file_nmae():
+    while True:
+        yield f"{uuid1()}.png"
+
+
+g = gen_file_nmae()
+
+print(next(g))
