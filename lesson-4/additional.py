@@ -54,16 +54,16 @@
 
 # print("It works")
 
-from uuid import uuid1
+# from uuid import uuid1
 
 
-def gen_file_nmae():
-    while True:
-        yield f"{uuid1()}.png"
+# def gen_file_nmae():
+#     while True:
+#         yield f"{uuid1()}.png"
 
 
-g = gen_file_nmae()
+# g = gen_file_nmae()
 
-print(next(g))
+# print(next(g))
 
 # 30:00
