@@ -264,19 +264,3 @@
 
 # def test(name) -> str:
 #     return name
-
-
-# print(test("looool"))
-
-# def multi_table():
-#     size = 9
-#     i = 1
-#     while i <= size:
-#         j = 1
-#         while j <= size:
-#             res = i * j
-#             print("  " if res // 10 else "   ", end="")
-#             print(res, end="")
-#             j += 1
-#         i += 1
-#         print()
